@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">建伟饰品</string>
+    <string name="title_activity_main">建伟饰品</string>
+    <string name="package_name">com.jinran.shop</string>
+    <string name="custom_url_scheme">com.jinran.shop</string>
+</resources>

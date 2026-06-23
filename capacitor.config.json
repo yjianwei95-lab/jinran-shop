@@ -1,0 +1,21 @@
+{
+  "appId": "com.jinran.shop",
+  "appName": "建伟饰品",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "hostname": "jinran-shop-production.up.railway.app"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#f5f5f5"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "backgroundColor": "#ffffff",
+      "splashFullScreen": true
+    }
+  }
+}
