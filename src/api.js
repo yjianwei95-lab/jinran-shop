@@ -1,8 +1,10 @@
-const BASE_URL = 'https://jinran-shop-production.up.railway.app'
+// 后端API地址 - 可在APP设置页面修改
+// 默认指向本地服务器 localhost:3001，部署后需修改
+const BASE_URL = localStorage.getItem('api_base_url') || 'http://192.168.1.155:3001'
 
 async function request(path, options = {}) {
   const url = BASE_URL + path
-  const token = uni.getStorageSync('token') || ''
+  const token = localStorage.getItem('token') || ''
 
   const res = await fetch(url, {
     headers: {
